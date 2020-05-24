@@ -4,7 +4,7 @@
 export class RouterOutlet extends HTMLElement {
 static routes = {} as any;
 
-    connectedCallback() {
+    protected connectedCallback() {
         RouterOutlet.render();
     }
 
